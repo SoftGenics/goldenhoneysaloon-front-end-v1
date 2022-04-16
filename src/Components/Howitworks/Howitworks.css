@@ -1,8 +1,73 @@
-.head{
-    text-decoration: wavy !important;
-    text-decoration-color: blueviolet;
+
+.HowitWorks{
+    display: flex;
+    margin: 2% 10%;
 }
-.icon{
+.HowitWorksText{
+    display: flex;
+    justify-content: space-around;
+    font-family:'Montserrat,sans-serif';
+}
+.HowitWorksText h4{
+    font-weight: bolder;
+}
+.HowitworksParagraph{
+font-family: 'Montserrat,sans-serif';
+display: flex;
+    margin: 2% 10%;
+    text-align: center;
+    font-size: large;
+}
+
+.borderwidth{
+   width:25%;
+   margin-top: 7%;   
+   border: 2px solid #c029b3;
+
+}
+.roundCirlce{
+    width: 10rem;
+    height: 10rem;
     border-radius: 50%;
-    background: pink;
+    background-color: #e9cca0;
+    
+    position: relative;
+    z-index: 99
+}
+.RoundCircleicon{
+    color: #490443;
+    transform: translate(15%, 100%);
+
+   border-radius: 50%;
+    font-size:3rem;
+  
+
+}
+.RoundCircleicon1{
+    color: #490443;
+    transform: translate(15%, 100%);
+
+   border-radius: 50%;
+    font-size:3rem;
+  
+
+}
+.completeContainer{
+    position: relative;
+
+}
+.roundCirlce span{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: #333;
+    font-size: 20px;
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
 }
